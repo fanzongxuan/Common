@@ -9,7 +9,7 @@ namespace DNIC.Common.Infrastructure.DependencyManagement
 {
     public static class DependencyInjectionConfig
     {
-        public static void Inject(IServiceCollection services, IConfiguration configuration)
+        public static void Inject(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<PerRequestCacheManager>();
             services.Configure<RedisOptions>(configuration.GetSection("RedisOptions"));

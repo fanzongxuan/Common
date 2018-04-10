@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DNIC.Common.Cache
 {
-    public class PerRequestCacheManager
+    public class PerRequestCacheManager : ICacheManager
     {
         private readonly IHttpContextAccessor _contextAccessor;
 
