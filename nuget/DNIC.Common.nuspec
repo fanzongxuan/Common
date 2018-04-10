@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DNIC.Common</id>
+    <version>0.0.1</version>
+    <authors>zlzforever@163.com;</authors>
+    <owners>zlzforever@163.com</owners>
+    <licenseUrl>https://github.com/dotnet-china/Common/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dotnet-china/Common</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>DNIC;</tags>
+    <description>Shared component</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\DNIC.Common\bin\Release\netstandard2.0\DNIC.Common.dll" target="lib\netstandard2.0\DNIC.Common.dll" />
+  </files>
+</package>
